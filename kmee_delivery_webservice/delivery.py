@@ -17,7 +17,7 @@ class DeliveryGrid(osv.osv):
     _inherit = "delivery.grid"
 #    _description = "Delivery Webservice"
     _columns = {
-        'service': fields.char('Service Name', size=32, required=True),
+        'service': fields.char('Service Name', size=32),
         'service_type': fields.char('Name', size=32),
         'login': fields.char('Login:', size=32),
         'password': fields.char('Password:',size=32)
